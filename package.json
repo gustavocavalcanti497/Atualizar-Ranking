@@ -1,0 +1,23 @@
+{
+  "name": "atualizador-de-rankings",
+  "version": "1.0.0",
+  "main": "Atualizar.js",
+  "scripts": {
+    "test": "node Atualizar.js",
+    "start": "node Atualizar.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavocavalcanti497/Atualizar-Ranking.git"
+  },
+  "author": "Gustavo Cavalcanti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavocavalcanti497/Atualizar-Ranking/issues"
+  },
+  "homepage": "https://github.com/gustavocavalcanti497/Atualizar-Ranking#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
