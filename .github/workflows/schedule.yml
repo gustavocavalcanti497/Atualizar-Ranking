@@ -1,7 +1,7 @@
 name: Run Script
 on:
   schedule:
-    - cron: "0 8 * * *" # Executa às 8:00 UTC (5:00 horário de Brasília)
+    - cron: "0 8 * * *"  # Executa às 08:00 UTC (5:00 horário de Brasília)
 jobs:
   run-script:
     runs-on: ubuntu-latest
@@ -15,5 +15,4 @@ jobs:
           node-version: 20
 
       - name: Run Script
-        run: npm start  # Certifique-se de que o script esteja configurado no package.json
-
+        run: npm start
