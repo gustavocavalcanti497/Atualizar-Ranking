@@ -7,7 +7,8 @@ const endpoints = [
 'http://arneltem-rest.vistahost.com.br/ranking?key=f83ce208ed84db547bedf4824205d042', 
 'http://gralhaim-rest.vistahost.com.br/ranking?key=0869be516bbd5ee49d545af01cd6e22d', 
 'http://rafaella18114-rest.vistahost.com.br/ranking?key=d0ce01201f2d53eaa939a131057bfcaf',
-'http://cia18122-rest.vistahost.com.br/ranking?key=39af385b688139f8f3a351fb96faff3a'];
+'http://cia18122-rest.vistahost.com.br/ranking?key=39af385b688139f8f3a351fb96faff3a',
+'http://focoempr36999-rest.vistahost.com.br/ranking?key=33ff6d491eab9b5dce70b34148300dcd'];
 
 const axiosInstance = axios.create({
     headers: {
