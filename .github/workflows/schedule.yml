@@ -1,16 +1,19 @@
 name: Run Script
 on:
   schedule:
-   - cron: "0 8 * * *" # Executa às 5:00 no horário de Brasília (08:00 UTC)
+    - cron: "0 8 * * *" # Executa às 8:00 UTC (5:00 horário de Brasília)
 jobs:
- run-script:
-  runs-on: ubuntu-latest
- steps:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
       - name: Checkout code
         uses: actions/checkout@v3
+
       - name: Setup Node.js
-       uses: actions/setup-node@v3
-      with:
-         node-version: 20
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
       - name: Run Script
-        run: npm start  # Executa o script (certifique-se de que o npm start esteja configurado)
+        run: npm start  # Certifique-se de que o script esteja configurado no package.json
+
